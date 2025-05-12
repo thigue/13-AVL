@@ -155,7 +155,7 @@ NO* girarDireita(NO* y) {
    // Passo 4: Recalcule as alturas dos nós afetados.  
    // Passo 5: Retorne o novo nó raiz ('x').  
 
-	// provisoriamente retorna o nosso passado como parâmetro
+	// provisoriamente retorna o ponteiro passado como parâmetro
 	return y; 
 }  
 
@@ -175,7 +175,7 @@ NO* girarEsquerda(NO* x) {
    // Passo 5: Retorne o novo nó raiz ('y').  
 
 
-    // provisoriamente retorna o nosso passado como parâmetro
+    // provisoriamente retorna o ponteiro passado como parâmetro
     return x; 
 }
 
